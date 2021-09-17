@@ -11,6 +11,7 @@
 		DC18656826F281A400BE69CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC18656726F281A400BE69CE /* ContentView.swift */; };
 		DC18656A26F281A500BE69CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC18656926F281A500BE69CE /* Assets.xcassets */; };
 		DC18656D26F281A500BE69CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC18656C26F281A500BE69CE /* Preview Assets.xcassets */; };
+		DC49BFCD26F5232600C72A39 /* Computing Definitions.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DC49BFCC26F5232600C72A39 /* Computing Definitions.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		DC18656926F281A500BE69CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC18656C26F281A500BE69CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DC18656E26F281A500BE69CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC49BFCC26F5232600C72A39 /* Computing Definitions.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Computing Definitions.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 		DC18657526F281F100BE69CE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DC49BFCC26F5232600C72A39 /* Computing Definitions.pdf */,
 				DC18656526F281A400BE69CE /* SystemsAndImpactApp.swift */,
 				DC18656926F281A500BE69CE /* Assets.xcassets */,
 				DC18656E26F281A500BE69CE /* Info.plist */,
@@ -134,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC49BFCD26F5232600C72A39 /* Computing Definitions.pdf in Resources */,
 				DC18656D26F281A500BE69CE /* Preview Assets.xcassets in Resources */,
 				DC18656A26F281A500BE69CE /* Assets.xcassets in Resources */,
 			);
