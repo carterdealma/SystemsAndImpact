@@ -11,7 +11,7 @@ import SwiftUI
 struct SystemsAndImpactApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ImpactAndSystemsView()
         }
     }
 }

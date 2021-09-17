@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DC18656626F281A400BE69CE /* SystemsAndImpactApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC18656526F281A400BE69CE /* SystemsAndImpactApp.swift */; };
-		DC18656826F281A400BE69CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC18656726F281A400BE69CE /* ContentView.swift */; };
+		DC18656826F281A400BE69CE /* ImpactAndSystemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC18656726F281A400BE69CE /* ImpactAndSystemsView.swift */; };
 		DC18656A26F281A500BE69CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC18656926F281A500BE69CE /* Assets.xcassets */; };
 		DC18656D26F281A500BE69CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC18656C26F281A500BE69CE /* Preview Assets.xcassets */; };
 		DC49BFCD26F5232600C72A39 /* Computing Definitions.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DC49BFCC26F5232600C72A39 /* Computing Definitions.pdf */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		DC18656226F281A400BE69CE /* SystemsAndImpact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SystemsAndImpact.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC18656526F281A400BE69CE /* SystemsAndImpactApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemsAndImpactApp.swift; sourceTree = "<group>"; };
-		DC18656726F281A400BE69CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DC18656726F281A400BE69CE /* ImpactAndSystemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpactAndSystemsView.swift; sourceTree = "<group>"; };
 		DC18656926F281A500BE69CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC18656C26F281A500BE69CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DC18656E26F281A500BE69CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				DC18657526F281F100BE69CE /* Resources */,
-				DC18656726F281A400BE69CE /* ContentView.swift */,
+				DC18656726F281A400BE69CE /* ImpactAndSystemsView.swift */,
 				DC18656B26F281A500BE69CE /* Preview Content */,
 			);
 			path = SystemsAndImpact;
@@ -150,7 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC18656826F281A400BE69CE /* ContentView.swift in Sources */,
+				DC18656826F281A400BE69CE /* ImpactAndSystemsView.swift in Sources */,
 				DC18656626F281A400BE69CE /* SystemsAndImpactApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
