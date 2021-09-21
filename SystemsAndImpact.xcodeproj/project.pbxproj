@@ -12,6 +12,7 @@
 		DC18656A26F281A500BE69CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC18656926F281A500BE69CE /* Assets.xcassets */; };
 		DC18656D26F281A500BE69CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC18656C26F281A500BE69CE /* Preview Assets.xcassets */; };
 		DC1F1A2F26FA4FD20094F266 /* ComputingImpact.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1F1A2E26FA4FD20094F266 /* ComputingImpact.swift */; };
+		DC1F1A3226FA52E70094F266 /* ImpactData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1F1A3126FA52E70094F266 /* ImpactData.swift */; };
 		DC49BFCD26F5232600C72A39 /* Computing Definitions.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DC49BFCC26F5232600C72A39 /* Computing Definitions.pdf */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		DC18656C26F281A500BE69CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DC18656E26F281A500BE69CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC1F1A2E26FA4FD20094F266 /* ComputingImpact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputingImpact.swift; sourceTree = "<group>"; };
+		DC1F1A3126FA52E70094F266 /* ImpactData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpactData.swift; sourceTree = "<group>"; };
 		DC49BFCC26F5232600C72A39 /* Computing Definitions.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Computing Definitions.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				DC1F1A2E26FA4FD20094F266 /* ComputingImpact.swift */,
+				DC1F1A3126FA52E70094F266 /* ImpactData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 				DC1F1A2F26FA4FD20094F266 /* ComputingImpact.swift in Sources */,
 				DC18656826F281A400BE69CE /* ImpactAndSystemsView.swift in Sources */,
 				DC18656626F281A400BE69CE /* SystemsAndImpactApp.swift in Sources */,
+				DC1F1A3226FA52E70094F266 /* ImpactData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
