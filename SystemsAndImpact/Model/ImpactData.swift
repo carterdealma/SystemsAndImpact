@@ -38,5 +38,12 @@ func loadImpactData() -> [ComputingImpact]
         "Silicon Valley moved from an agricultural industry to a high-tech industry very fast. This lead to heavy metals and toxic chemicals to pollute the soil and contaminate groundwater.",
     ]
     
+    for index in 0 ..< 5
+    {
+        let currentRegion = MKCoordinateRegion(center:regions[index],
+                                               span: MKCoordinateSpan(latitudeDelta: 10.0, longitudeDelta: 10.0))
+        impactItems.append(ComputingImpact(title: titles[index], details: details [index], location: currentRegion))
+    }
+    
     return impactItems
 }
