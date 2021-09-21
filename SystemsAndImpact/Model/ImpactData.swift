@@ -18,8 +18,8 @@ func loadImpactData() -> [ComputingImpact]
         CLLocationCoordinate2D(latitude: 20.5937, longitude: 78.9629),
         CLLocationCoordinate2D(latitude: 61.5240, longitude: 105.3188),
         CLLocationCoordinate2D(latitude: 34.0479, longitude: 100.6197),
-        CLLocationCoordinate2D(latitude: 37.0902, longitude: 95.7129),
-        CLLocationCoordinate2D(latitude: 37.3875, longitude: 122.0575)
+        CLLocationCoordinate2D(latitude: 28.396837, longitude: -80.605659),
+        CLLocationCoordinate2D(latitude: 37.3875, longitude: -122.0575)
     ]
     
     let titles : [String] =

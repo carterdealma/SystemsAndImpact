@@ -13,6 +13,7 @@
 		DC18656D26F281A500BE69CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC18656C26F281A500BE69CE /* Preview Assets.xcassets */; };
 		DC1F1A2F26FA4FD20094F266 /* ComputingImpact.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1F1A2E26FA4FD20094F266 /* ComputingImpact.swift */; };
 		DC1F1A3226FA52E70094F266 /* ImpactData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1F1A3126FA52E70094F266 /* ImpactData.swift */; };
+		DC1F1A3926FA5CC00094F266 /* ImpactDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1F1A3826FA5CC00094F266 /* ImpactDetailView.swift */; };
 		DC49BFCD26F5232600C72A39 /* Computing Definitions.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DC49BFCC26F5232600C72A39 /* Computing Definitions.pdf */; };
 /* End PBXBuildFile section */
 
