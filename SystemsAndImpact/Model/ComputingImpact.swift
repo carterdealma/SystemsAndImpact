@@ -6,3 +6,11 @@
 //
 
 import MapKit
+
+struct ComputingImpact : Identifiable
+{
+    let id = UUID()
+    let title : String
+    let details : String
+    var location : MKCoordinateRegion
+}
