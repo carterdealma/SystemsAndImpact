@@ -15,6 +15,7 @@
 		DC1F1A3226FA52E70094F266 /* ImpactData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1F1A3126FA52E70094F266 /* ImpactData.swift */; };
 		DC1F1A3926FA5CC00094F266 /* ImpactDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1F1A3826FA5CC00094F266 /* ImpactDetailView.swift */; };
 		DC49BFCD26F5232600C72A39 /* Computing Definitions.pdf in Resources */ = {isa = PBXBuildFile; fileRef = DC49BFCC26F5232600C72A39 /* Computing Definitions.pdf */; };
+		DC866DBB26FCF95E006710E0 /* PDFKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC866DBA26FCF95E006710E0 /* PDFKitView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		DC1F1A3126FA52E70094F266 /* ImpactData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpactData.swift; sourceTree = "<group>"; };
 		DC1F1A3826FA5CC00094F266 /* ImpactDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImpactDetailView.swift; sourceTree = "<group>"; };
 		DC49BFCC26F5232600C72A39 /* Computing Definitions.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Computing Definitions.pdf"; sourceTree = "<group>"; };
+		DC866DBA26FCF95E006710E0 /* PDFKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFKitView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				DC18656726F281A400BE69CE /* ImpactAndSystemsView.swift */,
 				DC1F1A3826FA5CC00094F266 /* ImpactDetailView.swift */,
+				DC866DBA26FCF95E006710E0 /* PDFKitView.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC866DBB26FCF95E006710E0 /* PDFKitView.swift in Sources */,
 				DC1F1A2F26FA4FD20094F266 /* ComputingImpact.swift in Sources */,
 				DC18656826F281A400BE69CE /* ImpactAndSystemsView.swift in Sources */,
 				DC18656626F281A400BE69CE /* SystemsAndImpactApp.swift in Sources */,
