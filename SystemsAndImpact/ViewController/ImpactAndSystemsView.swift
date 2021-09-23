@@ -17,9 +17,9 @@ struct ImpactAndSystemsView: View
         {
             List
             {
-                Section(header: Text("Definitions"))
+                Section(header: Text("Systems"))
                 {
-                  Text("Coming Soon!")
+                    NavigationLink("All the definitions!", destination: PDFKitView())
                 }
                 Section(header: Text("Impacts"))
                 {
