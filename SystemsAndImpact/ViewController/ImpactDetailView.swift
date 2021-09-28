@@ -24,6 +24,13 @@ struct ImpactDetailView: View
                 MapMarker (coordinate: pin.location.center, tint: .blue)
             }
                 .frame(height: 400)
+            .onAppear()
+            {
+                withAnimation()
+                {
+                    impact.location.span = MKCoordinateSpan(latitudeDelta: 10.0, longitudeDelta : 8.6)
+                }
+            }
             Text(impact.details)
         }
     }
