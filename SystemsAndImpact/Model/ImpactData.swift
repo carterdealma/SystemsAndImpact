@@ -9,6 +9,9 @@ import MapKit
 
 let definitions = Bundle.main.url(forResource: "Computing Definitions", withExtension: "pdf")!
 
+let ctecLocation = ComputingImpact(title: "CTEC", details: "Canyons Technical Education  Center",
+                                   location: MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 40.5875, longitude: -111.8684), span: MKCoordinateSpan(latitudeDelta: 0.02, longitudeDelta: 0.02 )))
+
 func loadImpactData() -> [ComputingImpact]
 {
     var impactItems : [ComputingImpact] = []

@@ -11,12 +11,18 @@ import MapKit
 struct ImpactDetailView: View
 {
     @State private var impact : ComputingImpact
+    private var mapItems : [ComputingImpact]
     
     var body: some View
     {
         VStack
         {
-            Map(coordinateRegion: $impact.location)
+            Map(coordinateRegion: $impact.location, annotationItems: mapItems)
+            {
+                pin in
+                
+                MapMarker (coordinate: pin.location.center, tint: .blue)
+            }
                 .frame(height: 400)
             Text(impact.details)
         }
@@ -25,6 +31,7 @@ struct ImpactDetailView: View
     init(with impact: ComputingImpact)
     {
         _impact = State(initialValue: impact)
+        mapItems = [ctecLocation, impact]
     }
 }
 

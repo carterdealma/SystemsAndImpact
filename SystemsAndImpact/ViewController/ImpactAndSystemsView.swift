@@ -23,11 +23,11 @@ struct ImpactAndSystemsView: View
                 }
                 Section(header: Text("Impacts"))
                 {
-                    ForEach(impacts.indices)
+                    ForEach(impacts)
                     {
-                        index in
+                        impact in
                         
-                        NavigationLink(impacts[index].title, destination: ImpactDetailView (with: impacts[index]))
+                        NavigationLink(impact.title, destination: ImpactDetailView (with: impact))
                     }
                 }
             }
